@@ -1,6 +1,7 @@
 const jsdom = require( 'jsdom' );
 const path = require( 'path' );
 var chai = require( 'chai' );
+const { timeStamp } = require('console');
 chai.use( require( 'chai-fs' ) );
 
 describe( 'This assignment', () => {
